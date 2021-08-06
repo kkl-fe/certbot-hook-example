@@ -1,0 +1,10 @@
+{
+  "name": "certbot-hook",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tencentcloud-sdk-nodejs": "^4.0.171"
+  }
+}
