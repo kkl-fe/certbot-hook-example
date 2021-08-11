@@ -1,8 +1,8 @@
 const fs = require('fs');
 const { dnsClient, getRecordIdPath } = require('./config');
 // 读取主域名和记录名
-let CERTBOT_DOMAIN = process.env.CERTBOT_DOMAIN;
-let CERTBOT_VALIDATION = process.env.CERTBOT_VALIDATION;
+const CERTBOT_DOMAIN = process.env.CERTBOT_DOMAIN;
+const CERTBOT_VALIDATION = process.env.CERTBOT_VALIDATION;
 console.log('CERTBOT_DOMAIN', CERTBOT_DOMAIN);
 console.log('CERTBOT_VALIDATION', CERTBOT_VALIDATION);
 let Domain,
