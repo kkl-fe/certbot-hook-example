@@ -1,25 +1,33 @@
 # certbot-hook-example
 
 这是 certbot 通过 DNS 解析验证来申请 let's encrypt 证书的示例，
-包含两个国内云服务 DNS 的解析，阿里云 DNS 和腾讯云 DNSPod。目前配合计划任务可无限期自动更新免费的 let's encrypt 证书。  
+包含两个云服务DNS的解析，阿里云 DNS 和腾讯云 DNSPod。目前配合计划任务可无限期自动更新免费的 let's encrypt 证书。  
 运行环境为 Linux，需要准备好 certbot 和 node.js，并使用 root 权限执行命令  
 ## dnspod 配置  
-### 安装依赖
+```
 cd ./dnspod
+```
+### 安装依赖
+```
 npm i
+```
 ### API访问授权配置 
-修改config/index.js
+修改 config/index.js
 ```
 secretId: '',
 secretKey: '',
 ```
 
 ## aliyun配置  
+```
+cd ./aliyun
+```
 ### 安装依赖
-cd ./dnspod
+```
 npm i
-### API访问授权
-修改config/index.js
+```
+### API访问授权配置
+修改 config/index.js
 ```
 accessKeyId: '',
 accessKeySecret: '',
