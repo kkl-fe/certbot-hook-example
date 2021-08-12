@@ -11,7 +11,7 @@ cd ./dnspod
 ```
 npm i
 ```
-### API访问授权配置 
+### 腾讯云API访问授权配置 
 修改 config/index.js
 ```
 secretId: '',
@@ -26,7 +26,7 @@ cd ./aliyun
 ```
 npm i
 ```
-### API访问授权配置
+### 阿里云API访问授权配置
 修改 config/index.js
 ```
 accessKeyId: '',
