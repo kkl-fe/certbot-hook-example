@@ -51,5 +51,6 @@ certbot certonly --manual --preferred-challenges dns --manual-auth-hook 'node ./
 ```
 renew_before_expiry = 90 days
 ```
+或者干脆在/etc/letsencrypt目录下包括archive、renewal、live目录中把待更新的域名相关文件都删除
 
 [参考文档](https://certbot.eff.org/docs/using.html#pre-and-post-validation-hooks)
